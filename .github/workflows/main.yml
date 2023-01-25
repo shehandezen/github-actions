@@ -11,3 +11,6 @@ jobs:
       
       - name: Run action
         run: echo "Running sction... "
+        
+      - name: error
+        run: echo "error"; exit 1
